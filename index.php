@@ -1,3 +1,7 @@
+<?php
+@include 'config.php';
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,7 +29,7 @@
                 <li><a href="#menu"> Menu </a></li>
                 <!-- <li><a href="#services"> Service Kami </a></li> -->
                 <li><a href="#kontak"> Kontak </a></li>
-                <a href="index.php"> Profil </a>
+                <li><a href="user_page.php"> Profil </a></li>
             </ul>
         </header>
 
@@ -170,6 +174,7 @@
                                 <li><a href="#menu">Menu</a></li>
                                 <!-- <li><a href="#">Service Kami</a></li> -->
                                 <li><a href="#kontak">Kontak</a></li>
+                                <li><a href="#profil">Profil</a></li>
                             </ul>
                         </div>
 
