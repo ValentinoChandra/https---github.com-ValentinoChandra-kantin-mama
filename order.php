@@ -33,44 +33,8 @@
             </ul>
         </header>
 
-        <!-- Beranda Awal -->
-            <section class="beranda" id="beranda">
-                <div class="teks_beranda">
-                    <h1> Nasi Ayam Geprek </h1>
-                    <h2> Makanan <br> paling direkomendasi </h2>
-                    <a href="#menu" class="btn"> Menu hari ini </a>
-                </div>
-
-                <div class="img-beranda">
-                    <img src="image/nasi ayam geprek.jpeg">
-            </section>
-        <!-- Beranda Akhir -->
-
-        <!-- Tentang Kami Awal -->
-            <section class="tentang" id="tentang">
-                <div class="tentang_foto">
-                    <img src="image/tentang_kami.png">
-                </div>
-
-                <div class="tentang_teks">
-                    <span> Tentang Kami </span>
-                    <h2> Kenapa harus <br> Kantin Mama </h2>
-                    <p> Kenapa Kantin Mama ini menjual nasi dan bahan-bahan yang premium, 
-                        harga juga sangat terjangkau sesuai isi dompet anak-anak sekolah hingga orang dewasa.
-                        Kantin mama sudah di percaya banyak orang karena masakannya yang fresh dan enak,
-                        Kantin Mama ini sudah banyak menerima orderan untuk catering beberapa acara personal.
-                    </p>
-                    <a href="#menu" class="btn"> Menu hari ini </a>
-                </div>
-            </section>
-        <!-- Tentang Kami Akhir -->
-
         <!-- Menu Awal -->
             <section class="menu" id="menu">
-                <div class="menu_header">
-                    <span> Menu Makanan </span>
-                    <h2> Enak tahan lama dan terjangkau harganya</h2>
-                </div>
 
                 <div class="menu_container">
                     <div class="box">
@@ -80,7 +44,7 @@
                         <h2>Nasi Ayam Geprek</h2>
                         <h3> Nasi dengan ayam geprek menggunakan sambal hijau </h3>
                         <span> Rp. 15.000 </span>
-                        <i class='bx bx-cart-alt'></i>
+                        <i class='bx bx-cart-alt'> <a href="order.php" class="btn"> </a> </i>
                     </div>
 
                     <div class="box">
@@ -90,7 +54,7 @@
                         <h2>Nasi Goreng</h2>
                         <h3> Nasi yang digoreng ciri khas Kantin Mama </h3>
                         <span> Rp. 15.000 </span>
-                        <i class='bx bx-cart-alt'></i>
+                        <i class='bx bx-cart-alt'> <a href="order.php" class="btn"></a> </i> 
                     </div>
 
                     <div class="box">
@@ -100,7 +64,7 @@
                         <h2>Nasi Ayam Karage</h2>
                         <h3> Nasi dengan ayam berbalur saos karage </h3>
                         <span> Rp. 15.000 </span>
-                        <i class='bx bx-cart-alt'></i>
+                        <i class='bx bx-cart-alt'> <a href="order.php" class="btn"></a> </i>
                     </div>
 
                     <div class="box">
@@ -110,7 +74,7 @@
                         <h2>Koipeng</h2>
                         <h3> Nasi dengan ayam kecap tradisional dan timun, menggunakan kuah kental yang disediakan </h3>
                         <span> Rp. 15.000 </span>
-                        <i class='bx bx-cart-alt'></i>
+                        <i class='bx bx-cart-alt'> <a href="order.php" class="btn"></a> </i>
                     </div>
 
                     <div class="box">
@@ -120,7 +84,7 @@
                         <h2>Cheesy Chicken</h2>
                         <h3> Nasi dengan ayam menggunakan saos keju diatasnya </h3>
                         <span> Rp. 15.000 </span>
-                        <i class='bx bx-cart-alt'></i>
+                        <i class='bx bx-cart-alt'> <a href="order.php" class="btn"></a> </i>
                     </div>
 
                 </div>
@@ -154,13 +118,6 @@
                 </div>
             </Section> -->
         <!-- Service Akhir -->
-
-        <!-- cta awal -->
-            <section class="cta">
-                <h2> Kami membuat makanan berkualitas <br> Setiap hari </h2>
-                <a href="#kontak" class="btn"> Mari ngobrol</a>
-            </section>
-        <!-- cta akhir-->
 
         <!-- footer (kontak) awal -->
             <section id="kontak">

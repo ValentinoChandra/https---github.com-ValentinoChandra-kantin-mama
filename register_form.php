@@ -61,7 +61,6 @@ if(isset($_POST['submit'])){
             <input type="password" name="cpassword" required placeholder="konfirmasi password">
             <select name="user_type">
                 <option value="user"> User </option>
-                <option value="admin"> admin </option>
             </select>
             <input type="submit" name="submit" value="register now" class="form-btn">
             <p> Sudah ada akun? <a href="login_form.php"> Masuk sekarang </a></p>
